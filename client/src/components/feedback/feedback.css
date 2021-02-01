@@ -1,0 +1,54 @@
+.feedback-flex {
+  display: flex;
+}
+
+.feedback-display {
+  width: 90%;
+  height: auto;
+  background: rgba(229, 229, 229, 0.5);
+  border-radius: 25px;
+  padding: 20px;
+  margin: 15px;
+}
+
+.feedback-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  width: 95%;
+}
+
+.feedback-close {
+  margin-left: 30px;
+  margin-right: 5px;
+
+  fill: #202020;
+}
+
+.feedback-close:hover {
+  fill: #e76060;
+}
+
+.feedback-close:active {
+  fill: white;
+}
+
+.feedback-started {
+  margin-top: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.feedback-started-date {
+  margin-top: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+}

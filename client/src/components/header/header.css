@@ -1,0 +1,22 @@
+.header {
+  background-color: #202020;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+}
+
+.header-text {
+  color: #f3f3f3;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
