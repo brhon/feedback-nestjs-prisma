@@ -35,17 +35,17 @@
   fill: white;
 }
 
-.feedback-started {
-  margin-top: 5px;
+.feedback-started-author {
+  margin-top: 10px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 21px;
 }
 
-.feedback-started-date {
-  margin-top: 5px;
+.feedback-started {
+  margin-top: 10px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;

@@ -9,8 +9,9 @@ function Feedback(props) {
         <Close className="feedback-close" />
       </div>
       <div className="feedback-flex">
-        <p className="feedback-started">Started on&nbsp;</p>
-        <p className="feedback-started-date">{props.startedDate}</p>
+        <p className="feedback-started">Posted on&nbsp;</p>
+        <p className="feedback-started">{props.startedDate} by&nbsp;</p>
+        <p className="feedback-started-author">{props.author}</p>
       </div>
     </div>
   );

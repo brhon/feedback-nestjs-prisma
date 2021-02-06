@@ -11,7 +11,7 @@ function Home() {
         <NewFeedback />
       </div>
       <div className="scroll home-flex-column">
-        <Feedback feedback={feedback} />
+        <Feedback feedback={feedback} startedDate="01/01/01" author="kisho" />
         <Feedback feedback={feedback} />
         <Feedback feedback={feedback} />
         <Feedback feedback={feedback} />
