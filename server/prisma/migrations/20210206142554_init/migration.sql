@@ -1,8 +1,8 @@
 -- CreateTable
-CREATE TABLE "Todo" (
+CREATE TABLE "Feedback" (
     "id" SERIAL NOT NULL,
     "date" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "todo" TEXT NOT NULL,
+    "feedback" TEXT NOT NULL,
     "author" TEXT NOT NULL,
 
     PRIMARY KEY ("id")

@@ -10,9 +10,9 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Todo {
-  id     Int      @id @default(autoincrement())
-  date   DateTime @default(now())
-  todo   String
-  author String
+model Feedback {
+  id       Int      @id @default(autoincrement())
+  date     DateTime @default(now())
+  feedback String
+  author   String
 }
