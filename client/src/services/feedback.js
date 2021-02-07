@@ -2,7 +2,12 @@ import axios from "axios";
 
 class FeedbackService {
   //
-  url = "http://localhost:8000";
+  url;
+  constructor() {
+    process.env.NODE === "production"
+      ? (this.url = "https://feedback-nest-prisma.herokuapp.com")
+      : (this.url = "http://localhost:8000");
+  }
 
   getAll() {
     return axios.get(this.url + "/feedback/all");
