@@ -7,6 +7,7 @@ function Newfeedback() {
     const [formAuthor, setAuthor] = useState("");
 
     const submit = (event) => {
+        event.preventDefault();
         const data = {
             feedback: formFeedback,
             author: formAuthor,
@@ -15,9 +16,7 @@ function Newfeedback() {
         FeedbackService.addNewFeedback(data).then((response) => {
             console.log(response);
             window.location.reload();
-            return false;
         });
-        return false;
     };
 
     return (
