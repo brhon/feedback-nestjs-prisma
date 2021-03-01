@@ -14,7 +14,6 @@ class FeedbackService {
     }
 
     addNewFeedback(data) {
-        console.log("oui");
         return axios.post(this.url + "/feedback/create", data);
     }
 
